@@ -1,0 +1,17 @@
+.footerlink {
+  background-color: #334;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.FooterAuthor {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
