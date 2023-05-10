@@ -6,9 +6,7 @@ import Footer from "../footer/Footer";
 function Home() {
   return (
     <div>
-      <Header></Header>
-      <Tours></Tours>
-      <Footer></Footer>
+      <Tours />
     </div>
   );
 }

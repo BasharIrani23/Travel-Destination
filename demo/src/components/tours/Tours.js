@@ -1,17 +1,13 @@
 import "./Tours.css";
 import data from "../../data/db.json";
+import Tour from "./tour/Tour";
+
 function Tours() {
   return (
-    <div>
-      {data.map((item) => {
-        return (
-          <div className="Tourh1">
-            <h1>{item.name}</h1>
-            <img src={item.image} />
-            <hr />
-          </div>
-        );
-      })}
+    <div className="Tourh1">
+      {data.map((item) => (
+        <Tour Tour={item} key={item.id} />
+      ))}
     </div>
   );
 }
